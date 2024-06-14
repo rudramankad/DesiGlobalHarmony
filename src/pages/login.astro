@@ -1,0 +1,39 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Input from "../components/Input.astro";
+import FormLayout from "../layouts/Form-layout.astro";
+---
+
+<Layout title="IryDev Tinder Clone Template | Login Page">
+  <FormLayout>
+    <h1 class="text-white text-[45px] font-bold">Login</h1>
+    <p class="text-white mt-8 text-center">
+      By continuing you agree to our terms and conditions of use as well as our
+      cookie policy.
+    </p>
+    <form action="" method="POST">
+      <Input
+        type="text"
+        placeholder="Username"
+        aria-label="Enter your username"
+        name="username"
+      />
+      <Input
+        type="password"
+        placeholder="Password"
+        aria-label="Enter your username"
+        name="password"
+      />
+
+      <input
+        class="bg-white text-darkPink font-bold w-full rounded-[30px] px-5 py-4 mt-4 cursor-pointer"
+        type="submit"
+        value="Login"
+      />
+    </form>
+    <p class="text-white mt-8 text-center">
+      Don't you have an account ?
+      <a class="underline" href="/register">Register</a>
+    </p>
+  </FormLayout>
+</Layout>
