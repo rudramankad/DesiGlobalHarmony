@@ -23,8 +23,13 @@ export function Nav() {
       <nav
         className={`flex items-center justify-between box-border w-full absolute p-[2rem]`}
       >
-        <a href="/" title="Go to home page">
-          <svg className="h-10" viewBox="0 0 519 123">
+        <a href="/" title="Go to home page"> 
+          
+        <span>
+    <span style={{color: 'orange',fontSize:'30px'}}>Desi</span>
+    <span style={{color: 'white',fontSize:'30px'}}>Global</span>
+    <span style={{color: 'green',fontSize:'30px'}}>Harmony</span>
+  </span>
             <g fill="none" fillRule="evenodd">
               <title>❤️DesiGolobalHarmony</title>
               <path
@@ -36,7 +41,7 @@ export function Nav() {
                 fill="white"
               ></path>
             </g>
-          </svg>
+          
         </a>
 
         <div
