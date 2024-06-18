@@ -23,13 +23,14 @@ export function Nav() {
       <nav
         className={`flex items-center justify-between box-border w-full absolute p-[2rem]`}
       >
-        <a href="/" title="Go to home page"> 
-          
-        <span>
-    <span style={{color: 'orange',fontSize:'30px'}}>Desi</span>
-    <span style={{color: 'white',fontSize:'30px'}}>Global</span>
-    <span style={{color: 'green',fontSize:'30px'}}>Harmony</span>
+      <a href="/" title="Go to home page"> 
+  <span>
+    <span style={{color: 'orange', fontSize:'30px', fontWeight: 'bold'}}>Desi</span>
+    <span style={{color: 'white', fontSize:'30px', fontWeight: 'bold'}}>Global</span>
+    <span style={{color: 'green', fontSize:'30px', fontWeight: 'bold'}}>Harmony</span>
   </span>
+
+
             <g fill="none" fillRule="evenodd">
               <title>❤️DesiGolobalHarmony</title>
               <path
