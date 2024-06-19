@@ -17,3 +17,22 @@ body{
   div label input[type="checkbox"]:checked ~ span {
     box-shadow: 0 2px 20px white;
   } */
+
+  :root {
+    --saffron: #FF9933;
+    --white: #FFFFFF;
+    --indiaGreen: #138808;
+  }
+  
+  .bg-gradient-to-b {
+    background-image: linear-gradient(to bottom, var(--saffron), var(--white), var(--indiaGreen));
+  }
+  
+  .text-darkPink {
+    color: #D23669; 
+  }
+  
+  .input-darkPink::placeholder {
+    color: #D23669; 
+  }
+  

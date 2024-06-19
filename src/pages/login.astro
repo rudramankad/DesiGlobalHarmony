@@ -2,28 +2,33 @@
 import Layout from "../layouts/Layout.astro";
 import Input from "../components/Input.astro";
 import FormLayout from "../layouts/Form-layout.astro";
+import globalStyles from "../styles/global.css";
 ---
 
 <Layout title="❤️DesiGlobalHarmony | Login Page">
   <FormLayout>
-    <h1 class="text-white text-[45px] font-bold">Login</h1>
-    <p class="text-white mt-8 text-center">
+    <h1 class="text-darkPink text-[45px] font-bold">Login</h1>
+    <p class="text-darkPink mt-8 text-center">
       By continuing registration, you agreed to our terms and conditions of use as well as our
       cookie policy.And you have read our privacy policy as further refereced in our policy.
     </p>
     <form action="" method="POST">
       <Input
+        class="text-darkPink"
+        style="text-darkPink"
         type="text"
         placeholder="USERNAME"
         aria-label="PLEASE ENTER YOUR USERNAME"
         name="username"
       />
       <Input
+        class="text-darkPink"
         type="password"
         placeholder="PASSWORD"
         aria-label="PLEASE ENTER YOUR PASSWORD"
         name="password"
       />
+   
 
       <input
         class="bg-white text-darkPink font-bold w-full rounded-[30px] px-5 py-4 mt-4 cursor-pointer"
