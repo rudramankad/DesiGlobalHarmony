@@ -2,7 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Input from "../components/Input.astro";
 import FormLayout from "../layouts/Form-layout.astro";
-import globalStyles from "../styles/global.css";
+
 ---
 
 <Layout title="❤️DesiGlobalHarmony | Login Page">
@@ -14,20 +14,20 @@ import globalStyles from "../styles/global.css";
     </p>
     <form action="" method="POST">
       <Input
-        class="text-darkPink"
-        style="text-darkPink"
-        type="text"
-        placeholder="USERNAME"
-        aria-label="PLEASE ENTER YOUR USERNAME"
-        name="username"
-      />
-      <Input
-        class="text-darkPink"
-        type="password"
-        placeholder="PASSWORD"
-        aria-label="PLEASE ENTER YOUR PASSWORD"
-        name="password"
-      />
+      class="text-darkPink"
+      type="text"
+      placeholder="USERNAME"
+      aria-label="PLEASE ENTER YOUR USERNAME"
+      name="username"
+    />
+    <Input
+      class="text-darkPink"
+      type="password"
+      placeholder="PASSWORD"
+      aria-label="PLEASE ENTER YOUR PASSWORD"
+      name="password"
+    />
+
    
 
       <input
@@ -36,7 +36,7 @@ import globalStyles from "../styles/global.css";
         value="Login"
       />
     </form>
-    <p class="text-white mt-8 text-center">
+    <p class="text-darkPink mt-8 text-center">
       Don't you have an account yet?
       <a class="underline" href="/register">Register</a>
     </p>

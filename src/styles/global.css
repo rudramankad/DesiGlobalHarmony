@@ -32,7 +32,7 @@ body{
     color: #D23669; 
   }
   
-  .input-darkPink::placeholder {
-    color: #D23669; 
-  }
-  
+/* Target the input elements within the Input components */
+.Input input::placeholder {
+  color: #D23669; /* Replace with the exact shade of dark pink you want */
+}
